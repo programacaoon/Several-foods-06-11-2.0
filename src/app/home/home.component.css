@@ -1,0 +1,61 @@
+.centralizando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central {
+    overflow: hidden;
+    /* width: 1180px; */
+    width: 1000px;
+    margin: auto;
+}
+body {
+    margin: auto;
+}
+
+.inicio {
+    background-color: #5a86d0;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.inicio h1 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 50px 50px 50px 50px;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+.inicio p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px 50px 0px 50px;
+    margin: auto;
+} 
+
+.zoom {
+    transition: transform .4s; /* Animation */
+    margin: 0 auto;
+    width: 35%;
+    overflow: hidden;
+    float: left;
+    border: solid 3px white;
+}
+
+
+.zoom img {
+    width: 45%;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  
+
+
+  
